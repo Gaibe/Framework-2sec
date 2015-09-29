@@ -140,10 +140,6 @@ p {
     line-height: 1.2em;
 }
 
-p:first-of-type {
-    text-indent: 50px;
-}
-
 
 /*
     BALISE DE TEXTE
@@ -244,7 +240,7 @@ ul.unstyled > li {
     text-align: left;
 }
 
-.align-droit {
+.align-droite {
     text-align: right;
 }
 
@@ -262,4 +258,54 @@ ul.unstyled > li {
 
 .to-min {
     text-transform: lowercase;
+}
+
+
+table {
+    margin: 15px;
+}
+
+table > tbody > tr {
+    text-align: center;
+    border: solid grey 1px;
+}
+
+table > tbody > tr > th {
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+table > tbody > tr > td,
+table > tbody > tr > th {
+    padding: 10px 20px;
+    border: solid grey 1px;
+}
+
+table.alternate {
+    border: solid grey 1px;
+}
+
+table.alternate > tbody > tr > th {
+    background-color: black;
+    color: #fff;
+}
+
+table.alternate > tbody > tr > td,
+table.alternate > tbody > tr > th {
+    border: none;
+}
+
+table.alternate > tbody > tr:nth-child(2n) > td {
+    background-color: #CCCCCC;
+}
+
+table.complete > tbody > tr,
+table.complete > tbody > tr > td,
+table.complete > tbody > tr > th {
+    border-width: 10px;
+}
+
+table.hover > tbody > tr:hover > td {
+    background-color: #F5D9FF;
+    color: #7B2C96;
 }
