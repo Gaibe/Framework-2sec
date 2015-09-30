@@ -74,7 +74,7 @@ h6.sub {
 */
 p {
     margin: 15px  7px;
-    line-height: 1.2em;
+    line-height: 1.2rem;
 }
 
 
@@ -224,7 +224,7 @@ table.alternate {
 
     & > tbody > tr > th {
         background-color: black;
-        color: #fff;
+        color: white;
         border: none;
     }
     & > tbody > tr > td{
@@ -236,10 +236,12 @@ table.alternate {
 }
 
 
-table.complete > tbody > tr,
-table.complete > tbody > tr > td,
-table.complete > tbody > tr > th {
-    border-width: 10px;
+table.complete > tbody > tr {
+    &, 
+    & > td, 
+    & > th {
+        border-width: 8px;
+    }
 }
 
 table.hover > tbody > tr:hover > td {

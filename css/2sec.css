@@ -109,7 +109,7 @@ h6.sub {
 */
 p {
   margin: 15px  7px;
-  line-height: 1.2em; }
+  line-height: 1.2rem; }
 
 /*
     BALISE DE TEXTE
@@ -218,20 +218,80 @@ table.alternate {
   border: solid grey 1px; }
   table.alternate > tbody > tr > th {
     background-color: black;
-    color: #fff;
+    color: white;
     border: none; }
   table.alternate > tbody > tr > td {
     border: none; }
   table.alternate > tbody > tr:nth-child(2n) > td {
     background-color: #CCCCCC; }
 
-table.complete > tbody > tr,
-table.complete > tbody > tr > td,
-table.complete > tbody > tr > th {
-  border-width: 10px; }
+table.complete > tbody > tr, table.complete > tbody > tr > td, table.complete > tbody > tr > th {
+  border-width: 8px; }
 
 table.hover > tbody > tr:hover > td {
   background-color: #F5D9FF;
   color: #7B2C96; }
+
+button {
+  font-size: 1rem; }
+
+.btn {
+  border: solid grey 1px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px 5px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  box-shadow: -1px 2px 3px 1px rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  cursor: pointer;
+  text-align: center; }
+  .btn:hover, .btn:focus {
+    background-color: #676767; }
+  .btn:active {
+    background-color: #9a9a9a; }
+  .btn.btn-large {
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.2rem; }
+  .btn.btn-small {
+    margin: 2px;
+    padding: 5px 10px;
+    line-height: 0.9rem; }
+  .btn.btn-xtra-large {
+    display: block;
+    width: 100%; }
+  .btn.btn-flat {
+    border: none;
+    border-radius: 0;
+    box-shadow: none; }
+  .btn.btn-blue {
+    background-color: blue;
+    color: white; }
+    .btn.btn-blue:hover, .btn.btn-blue:focus {
+      background-color: #0000cc; }
+    .btn.btn-blue:active {
+      background-color: #3333ff; }
+  .btn.btn-red {
+    background-color: red;
+    color: white; }
+    .btn.btn-red:hover, .btn.btn-red:focus {
+      background-color: #cc0000; }
+    .btn.btn-red:active {
+      background-color: #ff3333; }
+  .btn.btn-yellow {
+    background-color: yellow;
+    color: black; }
+    .btn.btn-yellow:hover, .btn.btn-yellow:focus {
+      background-color: #cccc00; }
+    .btn.btn-yellow:active {
+      background-color: #ffff33; }
+  .btn.btn-fancy {
+    border: solid black 2px;
+    border-radius: 25px;
+    box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.7); }
 
 /*# sourceMappingURL=2sec.css.map */
