@@ -216,17 +216,14 @@ table {
 
 table.alternate {
   border: solid grey 1px; }
-
-table.alternate > tbody > tr > th {
-  background-color: black;
-  color: #fff; }
-
-table.alternate > tbody > tr > td,
-table.alternate > tbody > tr > th {
-  border: none; }
-
-table.alternate > tbody > tr:nth-child(2n) > td {
-  background-color: #CCCCCC; }
+  table.alternate > tbody > tr > th {
+    background-color: black;
+    color: #fff;
+    border: none; }
+  table.alternate > tbody > tr > td {
+    border: none; }
+  table.alternate > tbody > tr:nth-child(2n) > td {
+    background-color: #CCCCCC; }
 
 table.complete > tbody > tr,
 table.complete > tbody > tr > td,

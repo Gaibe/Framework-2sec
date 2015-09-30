@@ -220,22 +220,21 @@ table {
 }
 
 table.alternate {
-    border: solid grey 1px;
+    border: $bordure-grise;
+
+    & > tbody > tr > th {
+        background-color: black;
+        color: #fff;
+        border: none;
+    }
+    & > tbody > tr > td{
+        border: none;
+    }
+    & > tbody > tr:nth-child(2n) > td {
+        background-color: $gris-clair;
+    }
 }
 
-table.alternate > tbody > tr > th {
-    background-color: black;
-    color: #fff;
-}
-
-table.alternate > tbody > tr > td,
-table.alternate > tbody > tr > th {
-    border: none;
-}
-
-table.alternate > tbody > tr:nth-child(2n) > td {
-    background-color: $gris-clair;
-}
 
 table.complete > tbody > tr,
 table.complete > tbody > tr > td,
