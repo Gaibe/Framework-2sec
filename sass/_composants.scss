@@ -1,0 +1,28 @@
+
+.header{
+  display: block;
+  color:$violet-color-header;
+  background: $violet-back-header;
+  padding : 10px;
+  text-shadow: 1px 3px black;
+
+  & .title{
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  & .subtitle{
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 2rem;
+    font-style: oblique;
+  }
+}
+
+.jumbotron{
+  margin: 12px;
+  padding: 20px;
+  background-color: #BCBCBC;
+  border-radius: 7px;
+  text-align: center;
+}

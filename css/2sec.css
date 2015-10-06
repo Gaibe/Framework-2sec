@@ -263,7 +263,9 @@ button {
     line-height: 0.9rem; }
   .btn.btn-xtra-large {
     display: block;
-    width: 100%; }
+    width: 100%;
+    margin-left: 7px;
+    margin-right: 7px; }
   .btn.btn-flat {
     border: none;
     border-radius: 0;
@@ -295,5 +297,51 @@ button {
     box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.7), 0px -25px 20px rgba(255, 255, 255, 0.7) inset; }
     .btn.btn-fancy:hover {
       box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.7), 0px -25px 20px rgba(255, 255, 255, 0.3) inset; }
+
+.alert {
+  display: block;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 18px;
+  margin: 7px; }
+  .alert.alert-danger {
+    background-color: #FF8686;
+    color: #8C0300;
+    border-color: #8C0300; }
+  .alert.alert-sucess {
+    background-color: #69E78E;
+    color: #25743C;
+    border-color: #25743C; }
+  .alert.alert-information {
+    background-color: #5BC0DE;
+    color: #276172;
+    border-color: #276172; }
+  .alert.alert-avertissement {
+    background-color: #FFDB74;
+    color: #806826;
+    border-color: #806826; }
+
+.header {
+  display: block;
+  color: #985CAD;
+  background: #490063;
+  padding: 10px;
+  text-shadow: 1px 3px black; }
+  .header .title {
+    display: block;
+    font-size: 4rem;
+    font-weight: bold; }
+  .header .subtitle {
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 2rem;
+    font-style: oblique; }
+
+.jumbotron {
+  margin: 12px;
+  padding: 20px;
+  background-color: #BCBCBC;
+  border-radius: 7px;
+  text-align: center; }
 
 /*# sourceMappingURL=2sec.css.map */

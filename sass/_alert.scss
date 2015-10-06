@@ -1,0 +1,30 @@
+.alert{
+  display: block;
+  border:1px solid;
+  border-radius: 4px;
+  padding :18px;
+  margin: 7px;
+  &.alert-danger{
+    background-color: #FF8686;
+    color: #8C0300;
+    border-color: #8C0300;
+  }
+
+  &.alert-sucess{
+    background-color: #69E78E;
+    color: #25743C;
+    border-color: #25743C;
+  }
+
+  &.alert-information{
+    background-color: #5BC0DE;
+    color: #276172;
+    border-color: #276172;
+  }
+
+  &.alert-avertissement{
+    background-color: #FFDB74;
+    color: #806826;
+    border-color: #806826;
+  }
+}
