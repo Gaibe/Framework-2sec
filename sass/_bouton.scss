@@ -82,8 +82,16 @@ button {
     }
 
     &.btn-fancy {
+
         border: solid black 2px;
         border-radius: 25px;
-        box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.7);
+        box-shadow: $boxshadow1,
+            0px -25px 20px rgba(255, 255, 255, 0.7) inset;
+
+            &:hover{
+              box-shadow: $boxshadow1,
+                  0px -25px 20px rgba(255, 255, 255, 0.3) inset;
+            }
+
     }
 }
