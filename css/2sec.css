@@ -338,10 +338,34 @@ button {
     font-style: oblique; }
 
 .jumbotron {
-  margin: 12px;
+  margin: 7px;
   padding: 20px;
   background-color: #BCBCBC;
   border-radius: 7px;
   text-align: center; }
+
+.navbar {
+  background: #490063;
+  margin: 7px;
+  border-radius: 4px;
+  padding: -4px;
+  height: 40px; }
+  .navbar > ul {
+    margin-left: 20px;
+    height: 100%; }
+    .navbar > ul > li {
+      margin: 0px -0.18em;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      height: 100%;
+      display: inline-block;
+      color: white;
+      background: #363636; }
+      .navbar > ul > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 5px; }
+      .navbar > ul > li:hover {
+        background: black; }
 
 /*# sourceMappingURL=2sec.css.map */

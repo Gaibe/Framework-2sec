@@ -20,9 +20,41 @@
 }
 
 .jumbotron{
-  margin: 12px;
+  margin: 7px;
   padding: 20px;
   background-color: #BCBCBC;
   border-radius: 7px;
   text-align: center;
+}
+
+.navbar{
+  background: $violet-back-header;
+  margin: 7px;
+  border-radius: 4px;
+  padding :-4px;
+  height: 40px;
+
+  & >ul{
+    margin-left: 20px;
+    height: 100%;
+
+    & >li{
+      margin: 0px -0.18em;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      height:100%;
+      display: inline-block;
+      color : white;
+      background: #363636;
+
+      & >a{
+        position: relative;
+        display: block;
+        padding : 10px 5px;
+      }
+      &:hover{
+        background: black;
+      }
+    }
+  }
 }
