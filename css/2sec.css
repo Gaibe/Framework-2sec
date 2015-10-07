@@ -345,27 +345,39 @@ button {
   text-align: center; }
 
 .navbar {
-  background: #490063;
+  display: block;
+  border-top: 1px solid #985CAD;
+  border-bottom: 1px solid #985CAD;
   margin: 7px;
-  border-radius: 4px;
   padding: -4px;
   height: 40px; }
   .navbar > ul {
-    margin-left: 20px;
+    margin: 0px;
     height: 100%; }
     .navbar > ul > li {
-      margin: 0px -0.18em;
-      border-left: 1px solid black;
-      border-right: 1px solid black;
+      margin: 0px -0.12em;
+      padding: 0px 12px;
       height: 100%;
-      display: inline-block;
-      color: white;
-      background: #363636; }
+      color: black; }
       .navbar > ul > li > a {
-        position: relative;
         display: block;
         padding: 10px 5px; }
       .navbar > ul > li:hover {
-        background: black; }
+        background: #985CAD;
+        color: white; }
+
+.breadcrumb > ul {
+  margin-left: 6%;
+  font-size: 0.8rem;
+  color: #BCBCBC; }
+  .breadcrumb > ul > li {
+    display: inline-block;
+    margin: 0px; }
+    .breadcrumb > ul > li > a {
+      color: #BCBCBC;
+      text-decoration: none; }
+    .breadcrumb > ul > li:nth-child(n+2)::before {
+      content: ">";
+      margin: 0 10px; }
 
 /*# sourceMappingURL=2sec.css.map */
