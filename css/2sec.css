@@ -342,7 +342,8 @@ button {
   padding: 20px;
   background-color: #BCBCBC;
   border-radius: 7px;
-  text-align: center; }
+  text-align: center;
+  min-width: 25em; }
 
 .navbar {
   display: block;
@@ -350,14 +351,14 @@ button {
   border-bottom: 1px solid #985CAD;
   margin: 7px;
   padding: -4px;
-  height: 40px; }
+  min-height: 40px; }
   .navbar > ul {
-    margin: 0px;
-    height: 100%; }
+    margin: 0px; }
     .navbar > ul > li {
       margin: 0px -0.12em;
       padding: 0px 12px;
       height: 100%;
+      display: inline-block;
       color: black; }
       .navbar > ul > li > a {
         display: block;

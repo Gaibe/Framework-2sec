@@ -25,6 +25,7 @@
   background-color: #BCBCBC;
   border-radius: 7px;
   text-align: center;
+  min-width: $min-size;
 }
 
 .navbar{
@@ -33,19 +34,16 @@
   border-bottom: 1px solid $violet-color-header;
   margin: 7px;
   padding :-4px;
-  height: 40px;
+  min-height: 40px;
 
   & >ul{
     margin: 0px;
-    height: 100%;
-
 
     & >li{
-    //  float:left;
       margin: 0px -0.12em;
       padding: 0px 12px;
       height:100%;
-    //  display:inline-block;
+      display:inline-block;
       color : black;
 
 
