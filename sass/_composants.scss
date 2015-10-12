@@ -22,7 +22,7 @@
 .jumbotron{
   margin: 7px;
   padding: 20px;
-  background-color: #BCBCBC;
+  background-color: $gris-clairBC;
   border-radius: 7px;
   text-align: center;
   min-width: $min-size;
@@ -38,6 +38,7 @@
 
   & >ul{
     margin: 0px;
+    line-height: 1.3em;
 
     & >li{
       margin: 0px -0.12em;
@@ -51,10 +52,21 @@
         display: block;
         padding : 10px 5px;
       }
+      &.active, &.active:hover{
+        background: lighten($violet-color-header, 20);
+        color:black;
+      }
+      &.disabled, &.disabled:hover{
+        background: white;
+        color:$gris-clairBC;
+        cursor: not-allowed;
+      }
       &:hover{
         background: $violet-color-header;
         color: white;
       }
+
+
     }
   }
 }
@@ -64,13 +76,13 @@
   & >ul{
     margin-left: 6%;
     font-size: 0.8rem;
-    color: #BCBCBC;
+    color: grey;
 
     & >li{
       display: inline-block;
       margin : 0px;
       & >a{
-        color: #BCBCBC;
+        color: grey;
         text-decoration: none;
 
       }
@@ -94,7 +106,7 @@
       display: inline-block;
       list-style-type: none;
       margin: 0;
-      
+
       & > a {
         text-decoration: none;
         color: white;
@@ -102,6 +114,15 @@
         border-radius: 5px;
         padding: 5px 7px;
       }
+
+      &.active{
+        & > a{
+          background-color: white;
+          border: 1px solid $violet-fonce;
+          color : $violet-fonce;
+        }
+      }
+
     }
   }
 }
