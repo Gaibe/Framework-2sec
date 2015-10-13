@@ -404,4 +404,70 @@ button {
     border: 1px solid #7B2C96;
     color: #7B2C96; }
 
+.span-1 {
+  width: 10.5%; }
+
+.span-2 {
+  width: 23%; }
+
+.span-3 {
+  width: 35.5%; }
+
+.span-4 {
+  width: 48%; }
+
+.span-5 {
+  width: 60.5%; }
+
+.span-6 {
+  width: 73%; }
+
+.span-7 {
+  width: 85.5%; }
+
+.span-8 {
+  width: 98%; }
+
+.offset-1 {
+  margin-left: 12.5%; }
+
+.offset-2 {
+  margin-left: 25%; }
+
+.offset-3 {
+  margin-left: 37.5%; }
+
+.offset-4 {
+  margin-left: 50%; }
+
+.offset-5 {
+  margin-left: 62.5%; }
+
+.offset-6 {
+  margin-left: 75%; }
+
+.offset-7 {
+  margin-left: 87.5%; }
+
+.span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8 {
+  padding-left: 1%;
+  padding-right: 1%; }
+  .span-1, .span-1 .offset-1, .span-1 .offset-2, .span-1 .offset-3, .span-1 .offset-4, .span-1 .offset-5, .span-1 .offset-6, .span-1 .offset-7, .span-2, .span-2 .offset-1, .span-2 .offset-2, .span-2 .offset-3, .span-2 .offset-4, .span-2 .offset-5, .span-2 .offset-6, .span-2 .offset-7, .span-3, .span-3 .offset-1, .span-3 .offset-2, .span-3 .offset-3, .span-3 .offset-4, .span-3 .offset-5, .span-3 .offset-6, .span-3 .offset-7, .span-4, .span-4 .offset-1, .span-4 .offset-2, .span-4 .offset-3, .span-4 .offset-4, .span-4 .offset-5, .span-4 .offset-6, .span-4 .offset-7, .span-5, .span-5 .offset-1, .span-5 .offset-2, .span-5 .offset-3, .span-5 .offset-4, .span-5 .offset-5, .span-5 .offset-6, .span-5 .offset-7, .span-6, .span-6 .offset-1, .span-6 .offset-2, .span-6 .offset-3, .span-6 .offset-4, .span-6 .offset-5, .span-6 .offset-6, .span-6 .offset-7, .span-7, .span-7 .offset-1, .span-7 .offset-2, .span-7 .offset-3, .span-7 .offset-4, .span-7 .offset-5, .span-7 .offset-6, .span-7 .offset-7, .span-8, .span-8 .offset-1, .span-8 .offset-2, .span-8 .offset-3, .span-8 .offset-4, .span-8 .offset-5, .span-8 .offset-6, .span-8 .offset-7 {
+    display: inline-block;
+    margin-right: -6px;
+    vertical-align: top;
+    border: solid 1px red; }
+
+.container {
+  width: 940px;
+  display: block;
+  margin: 0 auto;
+  border: solid 1px black; }
+
+.row {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: solid 1px blue; }
+
 /*# sourceMappingURL=2sec.css.map */
