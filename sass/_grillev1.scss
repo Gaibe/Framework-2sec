@@ -62,12 +62,11 @@
 .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8 {
     padding-left: 1%;
     padding-right: 1%;
-    
+
     &, .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7 {
         display: inline-block;
         margin-right: -6px;
         vertical-align : top;
-        border: solid 1px red;
     }
 }
 
@@ -76,13 +75,13 @@
 .container {
     width: 940px;
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     border: solid 1px black;
+    box-shadow: 3px 3px 3px black;
 }
 
 .row {
     display: block;
     margin-top: 12px;
     margin-bottom: 12px;
-    border: solid 1px blue;
 }

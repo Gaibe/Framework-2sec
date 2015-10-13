@@ -455,19 +455,18 @@ button {
   .span-1, .span-1 .offset-1, .span-1 .offset-2, .span-1 .offset-3, .span-1 .offset-4, .span-1 .offset-5, .span-1 .offset-6, .span-1 .offset-7, .span-2, .span-2 .offset-1, .span-2 .offset-2, .span-2 .offset-3, .span-2 .offset-4, .span-2 .offset-5, .span-2 .offset-6, .span-2 .offset-7, .span-3, .span-3 .offset-1, .span-3 .offset-2, .span-3 .offset-3, .span-3 .offset-4, .span-3 .offset-5, .span-3 .offset-6, .span-3 .offset-7, .span-4, .span-4 .offset-1, .span-4 .offset-2, .span-4 .offset-3, .span-4 .offset-4, .span-4 .offset-5, .span-4 .offset-6, .span-4 .offset-7, .span-5, .span-5 .offset-1, .span-5 .offset-2, .span-5 .offset-3, .span-5 .offset-4, .span-5 .offset-5, .span-5 .offset-6, .span-5 .offset-7, .span-6, .span-6 .offset-1, .span-6 .offset-2, .span-6 .offset-3, .span-6 .offset-4, .span-6 .offset-5, .span-6 .offset-6, .span-6 .offset-7, .span-7, .span-7 .offset-1, .span-7 .offset-2, .span-7 .offset-3, .span-7 .offset-4, .span-7 .offset-5, .span-7 .offset-6, .span-7 .offset-7, .span-8, .span-8 .offset-1, .span-8 .offset-2, .span-8 .offset-3, .span-8 .offset-4, .span-8 .offset-5, .span-8 .offset-6, .span-8 .offset-7 {
     display: inline-block;
     margin-right: -6px;
-    vertical-align: top;
-    border: solid 1px red; }
+    vertical-align: top; }
 
 .container {
   width: 940px;
   display: block;
-  margin: 0 auto;
-  border: solid 1px black; }
+  margin: 15px auto;
+  border: solid 1px black;
+  box-shadow: 3px 3px 3px black; }
 
 .row {
   display: block;
   margin-top: 12px;
-  margin-bottom: 12px;
-  border: solid 1px blue; }
+  margin-bottom: 12px; }
 
 /*# sourceMappingURL=2sec.css.map */
