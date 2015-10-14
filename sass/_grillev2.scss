@@ -1,0 +1,26 @@
+@mixin calculLargeurSpan() {
+    @for $i from 1 through $nb-colonnes {
+        .span-#{$i} {
+            width: $i / $nb-colonnes * 100 - 2%;
+            display: inline-block;
+            padding-left: $grille-goutiere;
+            padding-right: $grille-goutiere;
+            margin-right: -6px;
+            vertical-align : top;
+
+        }
+    }
+}
+
+@mixin calculLargeurOffset() {
+    @for $i from 1 through ($nb-colonnes - 1) {
+        .offset-#{$i} {
+            margin-left: $i / $nb-colonnes * 100%;
+            display: inline-block;
+            margin-right: -6px;
+        }
+    }
+}
+
+@include calculLargeurElement();
+@include calculLargeurOffset();

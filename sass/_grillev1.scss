@@ -60,28 +60,12 @@
 
 
 .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8 {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: $grille-goutiere;
+    padding-right: $grille-goutiere;
+    vertical-align : top;
 
     &, .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7 {
         display: inline-block;
         margin-right: -6px;
-        vertical-align : top;
     }
-}
-
-
-
-.container {
-    width: 940px;
-    display: block;
-    margin: 15px auto;
-    border: solid 1px black;
-    box-shadow: 3px 3px 3px black;
-}
-
-.row {
-    display: block;
-    margin-top: 12px;
-    margin-bottom: 12px;
 }

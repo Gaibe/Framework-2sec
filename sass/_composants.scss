@@ -126,3 +126,18 @@
     }
   }
 }
+
+
+.container {
+    width: $container-width;
+    display: block;
+    margin: 15px auto;
+    border: solid 1px black;
+    box-shadow: 3px 3px 3px black;
+}
+
+.row {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
