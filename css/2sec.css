@@ -1,66 +1,518 @@
-/*
-Error: Undefined mixin 'calculLargeurElement'.
-        on line 25 of sass/_grillev2.scss, in `calculLargeurElement'
-        from line 25 of sass/_grillev2.scss
-        from line 10 of sass/2sec.scss
-
-Backtrace:
-sass/_grillev2.scss:25:in `calculLargeurElement'
-sass/_grillev2.scss:25
-sass/2sec.scss:10
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `with_mixin'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:326:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:328:in `block in watch'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: transparent; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Arial", "Verdana"; }
+
+/*
+    TITRE
+*/
+h1, h2, h3, h4, h5, h6 {
+  color: #7B2C96;
+  line-height: 1.5em;
+  margin: 10px 18px; }
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: bold; }
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: bold; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+h5 {
+  font-size: 1.1rem; }
+
+h6 {
+  font-size: 0.9rem; }
+
+/*
+    SOUS-TITRE
+*/
+h1 small,
+h1.sub {
+  font-size: 1.9rem; }
+
+h2 small,
+h2.sub {
+  font-size: 1.7rem; }
+
+h3 small,
+h3.sub {
+  font-size: 1.5rem; }
+
+h4 small,
+h4.sub {
+  font-size: 1.3rem; }
+
+h5 small,
+h5.sub {
+  font-size: 1.1rem; }
+
+h6 small,
+h6.sub {
+  font-size: 0.8rem; }
+
+/*
+    PARAGRAPHE
+*/
+p {
+  margin: 15px  7px;
+  line-height: 1.2rem; }
+
+/*
+    BALISE DE TEXTE
+*/
+mark {
+  color: red;
+  font-weight: bold; }
+
+del {
+  opacity: 0.4;
+  text-decoration: line-through; }
+
+ins {
+  font-weight: bold;
+  text-decoration: underline; }
+
+u {
+  text-decoration: underline; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+abbr {
+  font-style: italic; }
+  abbr:hover {
+    color: #CCCCCC; }
+
+/*
+    QUOTE & BLOCKQUOTE
+*/
+code {
+  background-color: #F5D9FF;
+  color: #7B2C96; }
+
+blockquote {
+  display: block;
+  border-left: #696969 solid 6px;
+  margin: 10px;
+  padding: 7px; }
+
+pre {
+  display: block;
+  border: grey solid 1px;
+  border-left: #7B2C96 solid 5px;
+  border-radius: 10px;
+  background-color: #CCCCCC;
   white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'calculLargeurElement'.\A         on line 25 of sass/_grillev2.scss, in `calculLargeurElement'\A         from line 25 of sass/_grillev2.scss\A         from line 10 of sass/2sec.scss"; }
+  padding: 12px 6px;
+  margin: 15px 7px; }
+
+kbd {
+  color: #fff;
+  background-color: #7B2C96;
+  padding: 1px 3px;
+  border-radius: 4px; }
+
+ul {
+  margin: 18px 7px;
+  line-height: 1.2em; }
+  ul > li {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    list-style-type: circle; }
+  ul.square > li {
+    list-style-type: square; }
+  ul.unstyled > li {
+    list-style-type: none; }
+
+.align-gauche {
+  text-align: left; }
+
+.align-droite {
+  text-align: right; }
+
+.align-centre {
+  text-align: center; }
+
+.align-justifie {
+  text-align: justify; }
+
+.to-maj {
+  text-transform: uppercase; }
+
+.to-min {
+  text-transform: lowercase; }
+
+table {
+  margin: 15px; }
+  table > tbody > tr {
+    text-align: center;
+    border: solid grey 1px; }
+    table > tbody > tr > th {
+      font-weight: bold;
+      background-color: #CCCCCC;
+      padding: 10px 20px;
+      border: solid grey 1px; }
+    table > tbody > tr > td {
+      padding: 10px 20px;
+      border: solid grey 1px; }
+
+table.alternate {
+  border: solid grey 1px; }
+  table.alternate > tbody > tr > th {
+    background-color: black;
+    color: white;
+    border: none; }
+  table.alternate > tbody > tr > td {
+    border: none; }
+  table.alternate > tbody > tr:nth-child(2n) > td {
+    background-color: #CCCCCC; }
+
+table.complete > tbody > tr, table.complete > tbody > tr > td, table.complete > tbody > tr > th {
+  border-width: 8px; }
+
+table.hover > tbody > tr:hover > td {
+  background-color: #F5D9FF;
+  color: #7B2C96; }
+
+button {
+  font-size: 1rem; }
+
+.btn {
+  border: solid grey 1px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px 5px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  box-shadow: -1px 2px 3px 1px rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  cursor: pointer;
+  text-align: center; }
+  .btn:hover, .btn:focus {
+    background-color: #676767; }
+  .btn:active {
+    background-color: #9a9a9a; }
+  .btn.btn-large {
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.2rem; }
+  .btn.btn-small {
+    margin: 2px;
+    padding: 5px 10px;
+    line-height: 0.9rem; }
+  .btn.btn-xtra-large {
+    display: block;
+    width: 100%;
+    margin-left: 7px;
+    margin-right: 7px; }
+  .btn.btn-flat {
+    border: none;
+    border-radius: 0;
+    box-shadow: none; }
+  .btn.btn-blue {
+    background-color: blue;
+    color: white; }
+    .btn.btn-blue:hover, .btn.btn-blue:focus {
+      background-color: #0000cc; }
+    .btn.btn-blue:active {
+      background-color: #3333ff; }
+  .btn.btn-red {
+    background-color: red;
+    color: white; }
+    .btn.btn-red:hover, .btn.btn-red:focus {
+      background-color: #cc0000; }
+    .btn.btn-red:active {
+      background-color: #ff3333; }
+  .btn.btn-yellow {
+    background-color: yellow;
+    color: black; }
+    .btn.btn-yellow:hover, .btn.btn-yellow:focus {
+      background-color: #cccc00; }
+    .btn.btn-yellow:active {
+      background-color: #ffff33; }
+  .btn.btn-fancy {
+    border: solid black 2px;
+    border-radius: 25px;
+    box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.7), 0px -25px 20px rgba(255, 255, 255, 0.7) inset; }
+    .btn.btn-fancy:hover {
+      box-shadow: -1px 5px 10px 1px rgba(0, 0, 0, 0.7), 0px -25px 20px rgba(255, 255, 255, 0.3) inset; }
+
+.alert {
+  display: block;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 18px;
+  margin: 7px; }
+  .alert.alert-danger {
+    background-color: #FF8686;
+    color: #8C0300;
+    border-color: #8C0300; }
+  .alert.alert-sucess {
+    background-color: #69E78E;
+    color: #25743C;
+    border-color: #25743C; }
+  .alert.alert-information {
+    background-color: #5BC0DE;
+    color: #276172;
+    border-color: #276172; }
+  .alert.alert-avertissement {
+    background-color: #FFDB74;
+    color: #806826;
+    border-color: #806826; }
+
+.header {
+  display: block;
+  color: #985CAD;
+  background: #490063;
+  padding: 10px;
+  text-shadow: 1px 3px black; }
+  .header .title {
+    display: block;
+    font-size: 4rem;
+    font-weight: bold; }
+  .header .subtitle {
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 2rem;
+    font-style: oblique; }
+
+.jumbotron {
+  margin: 7px;
+  padding: 20px;
+  background-color: #BCBCBC;
+  border-radius: 7px;
+  text-align: center;
+  min-width: 25em; }
+
+.navbar {
+  display: block;
+  border-top: 1px solid #985CAD;
+  border-bottom: 1px solid #985CAD;
+  margin: 7px;
+  padding: -4px;
+  min-height: 40px; }
+  .navbar > ul {
+    margin: 0px;
+    line-height: 1.3em; }
+    .navbar > ul > li {
+      margin: 0px -0.12em;
+      padding: 0px 12px;
+      height: 100%;
+      display: inline-block;
+      color: black; }
+      .navbar > ul > li > a {
+        display: block;
+        padding: 10px 5px; }
+      .navbar > ul > li.active, .navbar > ul > li.active:hover {
+        background: #c3a0cf;
+        color: black; }
+      .navbar > ul > li.disabled, .navbar > ul > li.disabled:hover {
+        background: white;
+        color: #BCBCBC;
+        cursor: not-allowed; }
+      .navbar > ul > li:hover {
+        background: #985CAD;
+        color: white; }
+
+.breadcrumb > ul {
+  margin-left: 6%;
+  font-size: 0.8rem;
+  color: grey; }
+  .breadcrumb > ul > li {
+    display: inline-block;
+    margin: 0px; }
+    .breadcrumb > ul > li > a {
+      color: grey;
+      text-decoration: none; }
+    .breadcrumb > ul > li:nth-child(n+2)::before {
+      content: ">";
+      margin: 0 10px; }
+
+.pagination > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0; }
+  .pagination > ul > li > a {
+    text-decoration: none;
+    color: white;
+    background-color: #7B2C96;
+    border-radius: 5px;
+    padding: 5px 7px; }
+  .pagination > ul > li.active > a {
+    background-color: white;
+    border: 1px solid #7B2C96;
+    color: #7B2C96; }
+
+.container {
+  width: 940px;
+  display: block;
+  margin: 15px auto;
+  border: solid 1px black;
+  box-shadow: 3px 3px 3px black; }
+
+.row {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px; }
+
+.span-1 {
+  width: 10.5%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-2 {
+  width: 23%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-3 {
+  width: 35.5%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-4 {
+  width: 48%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-5 {
+  width: 60.5%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-6 {
+  width: 73%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-7 {
+  width: 85.5%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.span-8 {
+  width: 98%;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-right: -6px;
+  vertical-align: top; }
+
+.offset-1 {
+  margin-left: 12.5%;
+  display: inline-block;
+  margin-right: -6px; }
+
+.offset-2 {
+  margin-left: 25%;
+  display: inline-block;
+  margin-right: -6px; }
+
+.offset-3 {
+  margin-left: 37.5%;
+  display: inline-block;
+  margin-right: -6px; }
+
+.offset-4 {
+  margin-left: 50%;
+  display: inline-block;
+  margin-right: -6px; }
+
+.offset-5 {
+  margin-left: 62.5%;
+  display: inline-block;
+  margin-right: -6px; }
+
+.offset-6 {
+  margin-left: 75%;
+  display: inline-block;
+  margin-right: -6px; }
+
+.offset-7 {
+  margin-left: 87.5%;
+  display: inline-block;
+  margin-right: -6px; }
+
+/*# sourceMappingURL=2sec.css.map */
