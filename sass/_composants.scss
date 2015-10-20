@@ -6,6 +6,12 @@
   padding : 10px;
   text-shadow: 1px 3px black;
 
+  & a {
+    color:$violet-color-header;
+    background: $violet-back-header;
+    text-decoration: none;
+  }
+
   & .title{
     display: block;
     font-size: 4rem;
@@ -45,12 +51,12 @@
       padding: 0px 12px;
       height:100%;
       display:inline-block;
-      color : black;
-
 
       & >a{
         display: block;
         padding : 10px 5px;
+        color : black;
+        text-decoration: none;
       }
       &.active, &.active:hover{
         background: lighten($violet-color-header, 20);
@@ -58,12 +64,16 @@
       }
       &.disabled, &.disabled:hover{
         background: white;
-        color:$gris-clairBC;
         cursor: not-allowed;
+        & > a {
+          color:$gris-clairBC;
+        }
       }
       &:hover{
         background: $violet-color-header;
-        color: white;
+        & > a {
+          color: white;
+        }
       }
 
 

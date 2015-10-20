@@ -327,6 +327,10 @@ button {
   background: #490063;
   padding: 10px;
   text-shadow: 1px 3px black; }
+  .header a {
+    color: #985CAD;
+    background: #490063;
+    text-decoration: none; }
   .header .title {
     display: block;
     font-size: 4rem;
@@ -359,21 +363,24 @@ button {
       margin: 0px -0.12em;
       padding: 0px 12px;
       height: 100%;
-      display: inline-block;
-      color: black; }
+      display: inline-block; }
       .navbar > ul > li > a {
         display: block;
-        padding: 10px 5px; }
+        padding: 10px 5px;
+        color: black;
+        text-decoration: none; }
       .navbar > ul > li.active, .navbar > ul > li.active:hover {
         background: #c3a0cf;
         color: black; }
       .navbar > ul > li.disabled, .navbar > ul > li.disabled:hover {
         background: white;
-        color: #BCBCBC;
         cursor: not-allowed; }
+        .navbar > ul > li.disabled > a, .navbar > ul > li.disabled:hover > a {
+          color: #BCBCBC; }
       .navbar > ul > li:hover {
-        background: #985CAD;
-        color: white; }
+        background: #985CAD; }
+        .navbar > ul > li:hover > a {
+          color: white; }
 
 .breadcrumb > ul {
   margin-left: 6%;
