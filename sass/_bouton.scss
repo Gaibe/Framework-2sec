@@ -3,6 +3,18 @@ button {
 }
 
 
+@mixin buttonColor($back-color, $font-color) {
+    background-color: $back-color;
+    color: $font-color;
+    &:hover, &:focus {
+        background-color: darken($back-color, $bouton-color-difference);
+    }
+    &:active {
+        background-color: lighten($back-color, $bouton-color-difference);
+    }
+}
+
+
 .btn {
     border: $bordure-grise;
     border-radius: 10px;
@@ -51,36 +63,15 @@ button {
     }
 
     &.btn-blue {
-        background-color: blue;
-        color: white;
-        &:hover, &:focus {
-            background-color: darken(blue, $bouton-color-difference);
-        }
-        &:active {
-            background-color: lighten(blue, $bouton-color-difference);
-        }
+        @include buttonColor(blue, white);
     }
 
     &.btn-red {
-        background-color: red;
-        color: white;
-        &:hover, &:focus {
-            background-color: darken(red, $bouton-color-difference);
-        }
-        &:active {
-            background-color: lighten(red, $bouton-color-difference);
-        }
+        @include buttonColor(red, white);
     }
 
     &.btn-yellow {
-        background-color: yellow;
-        color: black;
-        &:hover, &:focus {
-            background-color: darken(yellow, $bouton-color-difference);
-        }
-        &:active {
-            background-color: lighten(yellow, $bouton-color-difference);
-        }
+        @include buttonColor(yellow, black);
     }
 
     &.btn-fancy {
@@ -88,11 +79,11 @@ button {
         border: solid black 2px;
         border-radius: 25px;
         box-shadow: $boxshadow1,
-            0px -25px 20px rgba(255, 255, 255, 0.7) inset;
+            0px -8px 20px rgba(255, 255, 255, 0.7) inset;
 
             &:hover{
               box-shadow: $boxshadow1,
-                  0px -25px 20px rgba(255, 255, 255, 0.3) inset;
+                  0px -8px 20px rgba(255, 255, 255, 0.3) inset;
             }
 
     }
