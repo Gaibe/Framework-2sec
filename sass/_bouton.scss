@@ -3,7 +3,7 @@ button {
 }
 
 
-@mixin buttonColor($back-color, $font-color) {
+@mixin button-color($back-color, $font-color) {
     background-color: $back-color;
     color: $font-color;
     &:hover, &:focus {
@@ -52,8 +52,8 @@ button {
     &.btn-xtra-large {
         display: block;
         width: 100%;
-        margin-left: 7px;
-        margin-right: 7px;
+        margin-left: $margin-page;
+        margin-right: $margin-page;
     }
 
     &.btn-flat {
@@ -63,15 +63,15 @@ button {
     }
 
     &.btn-blue {
-        @include buttonColor(blue, white);
+        @include button-color(blue, white);
     }
 
     &.btn-red {
-        @include buttonColor(red, white);
+        @include button-color(red, white);
     }
 
     &.btn-yellow {
-        @include buttonColor(yellow, black);
+        @include button-color(yellow, black);
     }
 
     &.btn-fancy {

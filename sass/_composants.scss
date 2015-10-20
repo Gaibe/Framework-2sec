@@ -26,7 +26,7 @@
 }
 
 .jumbotron{
-  margin: 7px;
+  margin: 7px $margin-page;
   padding: 20px;
   background-color: $gris-clairBC;
   border-radius: 7px;
@@ -38,7 +38,7 @@
   display: block;
   border-top: 1px solid $violet-color-header;
   border-bottom: 1px solid $violet-color-header;
-  margin: 7px;
+  margin: 7px $margin-page;
   padding :-4px;
   min-height: 40px;
 

@@ -73,7 +73,7 @@ h6.sub {
     PARAGRAPHE
 */
 p {
-    margin: 15px  7px;
+    margin: 15px  $margin-page;
     line-height: 1.2rem;
 }
 
@@ -129,7 +129,7 @@ code {
 blockquote {
     display: block;
     border-left: $gris-fonce solid 6px;
-    margin: 10px;
+    margin: 10px $margin-page;
     padding: 7px;
 }
 
@@ -141,7 +141,7 @@ pre {
     background-color: $gris-clairCC;
     white-space: pre;
     padding: 12px 6px;
-    margin: 15px 7px;
+    margin: 15px $margin-page;
 }
 
 kbd {
@@ -152,7 +152,7 @@ kbd {
 }
 
 ul {
-    margin: 18px 7px;
+    margin: 18px $margin-page;
     line-height:  1.2em;
 
     & > li {
@@ -198,7 +198,7 @@ ul {
 
 
 table {
-    margin: 15px;
+    margin: 15px $margin-page;
 
     & > tbody > tr {
         text-align: center;

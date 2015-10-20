@@ -4,18 +4,28 @@ $violet-back-header: #490063;
 $violet-color-header: #985CAD;
 $gris-clairCC: #CCCCCC;
 $gris-fonce: #696969;
-$gris-clairBC:#BCBCBC;
+$gris-clairBC: #BCBCBC;
+$alert-danger-primaire: #FF8686;
+$alert-danger-secondaire: #8C0300;
+$alert-success-primaire: #69E78E;
+$alert-success-secondaire: #25743C;
+$alert-information-primaire: #5BC0DE;
+$alert-information-secondaire: #276172;
+$alert-avertissement-primaire: #FFDB74;
+$alert-avertissement-secondaire: #806826;
+
 
 $boxshadow1: -1px 5px 10px 1px rgba(0, 0, 0, 0.7);
 $bordure-grise: solid grey 1px;
-
 $font-family: "Arial", "Verdana";
 
 $bouton-color-difference: 10%;
+// Margin des elements qui doivent etre decale
+$margin-page: 7px;
 
 $min-size: 25em;
 
-// Variable de la grille
+/* Variable de la grille */
 $container-width: 940px;
 $grille-goutiere: 1%;
 $nb-colonnes: 8;

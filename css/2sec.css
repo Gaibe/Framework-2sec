@@ -46,6 +46,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Variable de la grille */
 body {
   font-family: "Arial", "Verdana"; }
 
@@ -108,7 +109,7 @@ h6.sub {
     PARAGRAPHE
 */
 p {
-  margin: 15px  7px;
+  margin: 15px 7px;
   line-height: 1.2rem; }
 
 /*
@@ -150,7 +151,7 @@ code {
 blockquote {
   display: block;
   border-left: #696969 solid 6px;
-  margin: 10px;
+  margin: 10px 7px;
   padding: 7px; }
 
 pre {
@@ -201,7 +202,7 @@ ul {
   text-transform: lowercase; }
 
 table {
-  margin: 15px; }
+  margin: 15px 7px; }
   table > tbody > tr {
     text-align: center;
     border: solid grey 1px; }
@@ -303,12 +304,12 @@ button {
   border: 1px solid;
   border-radius: 4px;
   padding: 18px;
-  margin: 7px; }
+  margin: 7px 7px; }
   .alert.alert-danger {
     background-color: #FF8686;
     color: #8C0300;
     border-color: #8C0300; }
-  .alert.alert-sucess {
+  .alert.alert-success {
     background-color: #69E78E;
     color: #25743C;
     border-color: #25743C; }
@@ -342,7 +343,7 @@ button {
     font-style: oblique; }
 
 .jumbotron {
-  margin: 7px;
+  margin: 7px 7px;
   padding: 20px;
   background-color: #BCBCBC;
   border-radius: 7px;
@@ -353,7 +354,7 @@ button {
   display: block;
   border-top: 1px solid #985CAD;
   border-bottom: 1px solid #985CAD;
-  margin: 7px;
+  margin: 7px 7px;
   padding: -4px;
   min-height: 40px; }
   .navbar > ul {

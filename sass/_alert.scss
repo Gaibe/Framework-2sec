@@ -1,30 +1,30 @@
+
+@mixin alert-color($primary-color, $secondary-color) {
+  background-color: $primary-color;
+  color: $secondary-color;
+  border-color: $secondary-color;
+}
+
 .alert{
   display: block;
   border:1px solid;
   border-radius: 4px;
   padding :18px;
-  margin: 7px;
+  margin: 7px $margin-page;
+
   &.alert-danger{
-    background-color: #FF8686;
-    color: #8C0300;
-    border-color: #8C0300;
+    @include alert-color($alert-danger-primaire, $alert-danger-secondaire);
   }
 
-  &.alert-sucess{
-    background-color: #69E78E;
-    color: #25743C;
-    border-color: #25743C;
+  &.alert-success{
+    @include alert-color($alert-success-primaire, $alert-success-secondaire);
   }
 
   &.alert-information{
-    background-color: #5BC0DE;
-    color: #276172;
-    border-color: #276172;
+    @include alert-color($alert-information-primaire, $alert-information-secondaire);
   }
 
   &.alert-avertissement{
-    background-color: #FFDB74;
-    color: #806826;
-    border-color: #806826;
+    @include alert-color($alert-avertissement-primaire, $alert-avertissement-secondaire);
   }
 }
