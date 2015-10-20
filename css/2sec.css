@@ -81,6 +81,9 @@ h6 {
 /*
     SOUS-TITRE
 */
+h1 small, h1.sub, h2 small, h2.sub, h3 small, h3.sub, h4 small, h4.sub, h5 small, h5.sub, h6 small, h6.sub {
+  opacity: 0.8; }
+
 h1 small,
 h1.sub {
   font-size: 1.9rem; }
@@ -146,7 +149,8 @@ abbr {
 */
 code {
   background-color: #F5D9FF;
-  color: #7B2C96; }
+  color: #7B2C96;
+  font-weight: 500; }
 
 blockquote {
   display: block;
