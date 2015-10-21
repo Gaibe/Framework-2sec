@@ -2,6 +2,9 @@ body {
     font-family: $font-family;
 }
 
+hr{
+  margin-bottom: 26px;
+}
 
 /*
     TITRE
@@ -144,18 +147,34 @@ pre {
     display: block;
     border: grey solid 1px;
     border-left: $violet-fonce solid 5px;
-    border-radius: 10px;
+    border-radius: $bordure-radius-box;
     background-color: $gris-clairCC;
     white-space: pre;
     padding: 12px 6px;
     margin: 15px $margin-page;
+
+    & >code{
+      background: none;
+    }
+}
+
+.exemple{
+  margin: 12px $margin-page;
+  border: 1px solid $violet-fonce;
+  border-radius: $bordure-radius-box;
+  box-shadow: 2px 2px 2px darken($violet-fonce,10);
+  margin-bottom: 14px;
+  & >div{
+    padding: 10px 18px;
+  }
+
 }
 
 kbd {
     color: #fff;
     background-color: $violet-fonce;
     padding: 1px 3px;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 ul {

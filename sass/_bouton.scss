@@ -17,7 +17,7 @@ button {
 
 .btn {
     border: $bordure-grise;
-    border-radius: 10px;
+    border-radius: $bordure-radius-box;
     padding: 10px 20px;
     margin: 5px 5px;
     background-color: grey;
