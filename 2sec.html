@@ -124,27 +124,79 @@
 
     <hr>
     <h3><small>Les balises textes</small></h3>
-    <ul>
-      Il est possible de "décorer" le texte à l'aide de plusieurs balises:
-  <li><del>Pour barrer</del></li>
-  <li><mark>Pour attirer l'attention</mark></li>
-  <li><ins>Pour marquer les sections insérées</ins></li>
-  <li><abbr title="Titre survolé">Survolez le titre</abbr></li>
-</ul>
-</p>
-<div class="exemple">
-  <h5><small>Exemple:</small></h5>
-  <div>
-    <pre>
-      &lt;del&gt;Pour barrer&lt;/del&gt;</br>
-      &lt;mark&gt;Pour attirer l'attention&lt;/mark&gt;</br>
-      &lt;ins&gt;Pour marquer les sections ins&eacute;r&eacute;es&lt;/ins&gt;</br>
-      &lt;abbr title=&quot;Titre survol&eacute;&quot;&gt;Survolez le titre&lt;/abbr&gt;
-    </pre>
-  </div>
-</div>
+    <p>Il est possible de "décorer" le texte à l'aide de plusieurs balises</p>
+
+    <div class="exemple">
+      <h5><small>Exemple:</small></h5>
+      <ul>
+        <li><del>Pour barrer</del></li>
+        <li><mark>Pour attirer l'attention</mark></li>
+        <li><ins>Pour marquer les sections insérées</ins></li>
+        <li><abbr title="Titre survolé">Survolez le titre</abbr></li>
+      </ul>
+      <div>Code:</div>
+      <pre>
+        &lt;del&gt;Pour barrer&lt;/del&gt;</br>
+        &lt;mark&gt;Pour attirer l'attention&lt;/mark&gt;</br>
+        &lt;ins&gt;Pour marquer les sections ins&eacute;r&eacute;es&lt;/ins&gt;</br>
+        &lt;abbr title=&quot;Titre survol&eacute;&quot;&gt;Survolez le titre&lt;/abbr&gt;
+      </pre>
+
+    </div>
     <hr>
-    <h3><small></small></h3>
+    <h3><small>Alignement et transformation</small></h3>
+    <p>Il est possible de modifier l'alignement des textes dans les balise <code>&lt;p&gt;</code> à l'aide des classes:</p>
+    <ul class="square">
+      <li><code>class="align-gauche"</code></li>
+      <li><code>class="align-droite"</code></li>
+      <li><code>class="align-justifie"</code></li>
+      <li><code>class="align-centre"</code></li>
+    </ul>
+    <div class="exemple">
+      <h5><small>Exemple:</small></h5>
+      <div><mark>Alignement à gauche</mark></div>
+      <p class="align-gauche">
+        Lorem Elsass ipsum sed und so Kabinetpapier risus, sagittis amet, Gal.
+        mollis rhoncus schnaps ch'ai knack jetz gehts los eleifend météor ante id, non Strasbourg aliquam DNA,
+         gravida Christkindelsmärik dui Racing. blottkopf, elementum Miss Dahlias messti de Bischheim Huguette ullamcorper yeuh.
+      </p>
+      <div></br></br><mark>Alignement à droite</mark></div>
+      <p class="align-droite">
+        Lorem Elsass ipsum sed und so Kabinetpapier risus, sagittis amet, Gal.
+        mollis rhoncus schnaps ch'ai knack jetz gehts los eleifend météor ante id, non Strasbourg aliquam DNA,
+         gravida Christkindelsmärik dui Racing. blottkopf, elementum Miss Dahlias messti de Bischheim Huguette ullamcorper yeuh.
+      </p>
+      <div></br></br><mark>Texte justifié</mark></div>
+      <p class="align-justifie">
+        Lorem Elsass ipsum sed und so Kabinetpapier risus, sagittis amet, Gal.
+        mollis rhoncus schnaps ch'ai knack jetz gehts los eleifend météor ante id, non Strasbourg aliquam DNA,
+         gravida Christkindelsmärik dui Racing. blottkopf, elementum Miss Dahlias messti de Bischheim Huguette ullamcorper yeuh.
+      </p>
+      <div></br></br><mark>Texte centré</mark></div>
+      <p class="align-centre">
+        Lorem Elsass ipsum sed und so Kabinetpapier risus, sagittis amet, Gal.
+        mollis rhoncus schnaps ch'ai knack jetz gehts los eleifend météor ante id, non Strasbourg aliquam DNA,
+         gravida Christkindelsmärik dui Racing. blottkopf, elementum Miss Dahlias messti de Bischheim Huguette ullamcorper yeuh.
+      </p>
+      <div>Code:</div>
+      <pre>
+        &lt;p class=&quot;align-gauche&quot;&gt;
+          Lorem Elsass ipsum sed...
+        &lt;/p&gt;
+
+        &lt;p class=&quot;align-droite&quot;&gt;
+          Lorem Elsass ipsum sed...
+        &lt;/p&gt;
+
+        &lt;p class=&quot;align-justifie&quot;&gt;
+          Lorem Elsass ipsum sed...
+        &lt;/p&gt;
+
+        &lt;p class=&quot;align-centre&quot;&gt;
+          Lorem Elsass ipsum sed...
+        &lt;/p&gt;
+      </pre>
+    </div>
     <hr>
     <h3><small></small></h3>
   </div>
