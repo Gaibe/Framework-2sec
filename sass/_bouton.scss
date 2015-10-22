@@ -27,7 +27,7 @@ button {
     display: inline-block;
     cursor: pointer;
     text-align: center;
-
+    box-sizing: border-box;
     &:hover, &:focus {
         background-color: darken(grey, $bouton-color-difference);
     }
@@ -54,6 +54,7 @@ button {
         width: 100%;
         margin-left: $margin-page;
         margin-right: $margin-page;
+
     }
 
     &.btn-flat {
