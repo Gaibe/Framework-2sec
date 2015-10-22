@@ -449,35 +449,35 @@ ul {
         background: #985CAD; }
         ul.navbar > li:hover > a {
           color: white; }
-
-.breadcrumb > ul {
-  margin-left: 6%;
-  font-size: 0.8rem;
-  color: grey; }
-  .breadcrumb > ul > li {
-    display: inline-block;
-    margin: 0px; }
-    .breadcrumb > ul > li > a {
-      color: grey;
-      text-decoration: none; }
-    .breadcrumb > ul > li:nth-child(n+2)::before {
-      content: ">";
-      margin: 0 10px; }
-
-.pagination > ul > li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0; }
-  .pagination > ul > li > a {
-    text-decoration: none;
-    color: white;
-    background-color: #7B2C96;
-    border-radius: 5px;
-    padding: 5px 7px; }
-  .pagination > ul > li.active > a {
-    background-color: white;
-    border: 1px solid #7B2C96;
-    color: #7B2C96; }
+  ul.breadcrumb {
+    margin-left: 6%;
+    font-size: 0.8rem;
+    color: grey; }
+    ul.breadcrumb > li {
+      display: inline-block;
+      margin: 0px; }
+      ul.breadcrumb > li > a {
+        color: grey;
+        text-decoration: none; }
+      ul.breadcrumb > li:nth-child(n+2)::before {
+        content: ">";
+        margin: 0 10px; }
+  ul.pagination {
+    margin: 7px; }
+    ul.pagination > li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 0; }
+      ul.pagination > li > a {
+        text-decoration: none;
+        color: white;
+        background-color: #7B2C96;
+        border-radius: 5px;
+        padding: 5px 7px; }
+      ul.pagination > li.active > a {
+        background-color: white;
+        border: 1px solid #7B2C96;
+        color: #7B2C96; }
 
 .container {
   max-width: 940px;
