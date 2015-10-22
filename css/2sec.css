@@ -179,7 +179,7 @@ pre {
   border-radius: 10px;
   box-shadow: 2px 2px 2px #5b206f;
   margin-bottom: 14px; }
-  .exemple > div {
+  .exemple div {
     padding: 10px 18px; }
 
 kbd {
@@ -490,7 +490,8 @@ ul {
   display: block;
   width: 100%;
   margin-top: 12px;
-  margin-bottom: 12px; }
+  margin-bottom: 12px;
+  box-sizing: border-box; }
 
 .span-1 {
   width: 10.5%;
@@ -498,7 +499,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-2 {
   width: 23%;
@@ -506,7 +508,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-3 {
   width: 35.5%;
@@ -514,7 +517,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-4 {
   width: 48%;
@@ -522,7 +526,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-5 {
   width: 60.5%;
@@ -530,7 +535,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-6 {
   width: 73%;
@@ -538,7 +544,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-7 {
   width: 85.5%;
@@ -546,7 +553,8 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .span-8 {
   width: 98%;
@@ -554,41 +562,49 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top; }
+  vertical-align: top;
+  box-sizing: border-box; }
 
 .offset-1 {
   margin-left: 12.5%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 .offset-2 {
   margin-left: 25%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 .offset-3 {
   margin-left: 37.5%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 .offset-4 {
   margin-left: 50%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 .offset-5 {
   margin-left: 62.5%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 .offset-6 {
   margin-left: 75%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 .offset-7 {
   margin-left: 87.5%;
   display: inline-block;
-  margin-right: -6px; }
+  margin-right: -6px;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=2sec.css.map */

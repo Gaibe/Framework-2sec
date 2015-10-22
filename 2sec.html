@@ -564,8 +564,55 @@
         &lt;/ul&gt;
       </pre>
     </div>
-
-
+    <hr>
+    <h3><small>Grille et container</small></h3>
+    <p>La classe "container" permet de créer une boite dans laquelle on peut placer divers éléments.</p>
+    <p>Il est possible de créer une grille afin de placer certains éléments, pour cela il suffit d'utiliser les classes "span" et "offset".</p>
+    <p>Il est également possible de créer des boites sous forme de ligne à l'aide de la classe "row"</p>
+    <div class="exemple">
+      <h5><small>Exemple:</small></h5>
+      <div class="row">
+      <div class="exemple span-1">
+        span-1
+      </div>
+      <div class="exemple span-2 offset-1">
+        span-2 offset-1
+      </div>
+      <div class="exemple span-3">
+        span-3
+      </div>
+    </div>
+    <div class="row">
+    <div class="exemple span-4">
+      span-4
+    </div>
+    <div class="exemple span-2">
+      span-2
+    </div>
+    <div class="exemple span-1">
+      span-1
+    </div>
+  </div>
+  <div class="row">
+  <div class="exemple span-1 offset-7">
+    span-1 offset-7
+  </div>
+</div>
+<div>Code:</div>
+<pre>
+    &lt;div class=&quot;row&quot;&gt;<br />
+      &lt;div class=&quot;exemple span-1&quot;&gt;<br />
+        span-1<br />
+      &lt;/div&gt;<br />
+      &lt;div class=&quot;exemple span-2 offset-1&quot;&gt;<br />
+        span-2 offset-1<br />
+      &lt;/div&gt;<br />
+      &lt;div class=&quot;exemple span-3&quot;&gt;<br />
+        span-3<br />
+      &lt;/div&gt;<br />
+    &lt;/div&gt;
+</pre>
+  </div>
   </div>
 </body>
 </html>
