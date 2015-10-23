@@ -19,10 +19,13 @@ $boxshadow1: -1px 5px 10px 1px rgba(0, 0, 0, 0.7);
 $bordure-grise: solid grey 1px;
 $bordure-radius-box: 10px;
 $font-family: "Arial", "Verdana";
+$md-screen: 768px;
+$sm-screen: 480px;
 
 $bouton-color-difference: 10%;
 // Margin des elements qui doivent etre decale
 $margin-page: 7px;
+$margin-negatif: -0.25em;
 
 $min-size: 25em;
 

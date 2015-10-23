@@ -1,14 +1,25 @@
+@mixin appCalculSpan($i) {
+    width: $i / $nb-colonnes * 100 - 2%;
+    display: inline-block;
+    padding-left: $grille-goutiere;
+    padding-right: $grille-goutiere;
+    margin-right: $margin-negatif;
+    vertical-align : top;
+//    box-sizing: border-box;
+}
+
+@mixin appCalculOffset($i) {
+    margin-left: $i / $nb-colonnes * 100%;
+    display: inline-block;
+    margin-right: $margin-negatif;
+//      box-sizing: border-box;
+}
+
+
 @mixin calculLargeurSpan() {
     @for $i from 1 through $nb-colonnes {
         .span-#{$i} {
-            width: $i / $nb-colonnes * 100 - 2%;
-            display: inline-block;
-            padding-left: $grille-goutiere;
-            padding-right: $grille-goutiere;
-            margin-right: -6px;
-            vertical-align : top;
-        //    box-sizing: border-box;
-
+            @include appCalculSpan($i);
         }
     }
 }
@@ -16,10 +27,49 @@
 @mixin calculLargeurOffset() {
     @for $i from 1 through ($nb-colonnes - 1) {
         .offset-#{$i} {
-            margin-left: $i / $nb-colonnes * 100%;
-            display: inline-block;
-            margin-right: -6px;
-      //      box-sizing: border-box;
+            @media screen and (min-width: $md-screen + 1) {
+                @include appCalculOffset($i);
+            }
+        }
+    }
+}
+
+@mixin calculLargeurSpan-md() {
+    @for $i from 1 through $nb-colonnes {
+        .span-md-#{$i} {
+            @media screen and (max-width: $md-screen) {
+                @include appCalculSpan($i);
+            }
+        }
+    }
+}
+
+@mixin calculLargeurOffset-md() {
+    @for $i from 1 through ($nb-colonnes - 1) {
+        .offset-md-#{$i} {
+            @media screen and (min-width: $sm-screen + 1) and (max-width: $md-screen) {
+                @include appCalculOffset($i);
+            }
+        }
+    }
+}
+
+@mixin calculLargeurSpan-sm() {
+    @for $i from 1 through $nb-colonnes {
+        .span-sm-#{$i} {
+            @media screen and (max-width: $sm-screen) {
+                @include appCalculSpan($i);
+            }
+        }
+    }
+}
+
+@mixin calculLargeurOffset-sm() {
+    @for $i from 1 through ($nb-colonnes - 1) {
+        .offset-sm-#{$i} {
+            @media screen and (max-width: $sm-screen) {
+                @include appCalculOffset($i);
+            }
         }
     }
 }
@@ -42,3 +92,7 @@
 
 @include calculLargeurSpan();
 @include calculLargeurOffset();
+@include calculLargeurSpan-md();
+@include calculLargeurOffset-md();
+@include calculLargeurSpan-sm();
+@include calculLargeurOffset-sm();
