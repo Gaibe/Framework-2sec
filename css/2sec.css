@@ -169,7 +169,8 @@ pre {
   background-color: #CCCCCC;
   white-space: pre;
   padding: 12px 6px;
-  margin: 15px 7px; }
+  margin: 15px 7px;
+  overflow: auto; }
   pre > code {
     background: none; }
 
@@ -490,8 +491,7 @@ ul {
   display: block;
   width: 100%;
   margin-top: 12px;
-  margin-bottom: 12px;
-  box-sizing: border-box; }
+  margin-bottom: 12px; }
 
 .span-1 {
   width: 10.5%;
@@ -499,8 +499,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-2 {
   width: 23%;
@@ -508,8 +507,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-3 {
   width: 35.5%;
@@ -517,8 +515,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-4 {
   width: 48%;
@@ -526,8 +523,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-5 {
   width: 60.5%;
@@ -535,8 +531,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-6 {
   width: 73%;
@@ -544,8 +539,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-7 {
   width: 85.5%;
@@ -553,8 +547,7 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .span-8 {
   width: 98%;
@@ -562,49 +555,41 @@ ul {
   padding-left: 1%;
   padding-right: 1%;
   margin-right: -6px;
-  vertical-align: top;
-  box-sizing: border-box; }
+  vertical-align: top; }
 
 .offset-1 {
   margin-left: 12.5%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 .offset-2 {
   margin-left: 25%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 .offset-3 {
   margin-left: 37.5%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 .offset-4 {
   margin-left: 50%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 .offset-5 {
   margin-left: 62.5%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 .offset-6 {
   margin-left: 75%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 .offset-7 {
   margin-left: 87.5%;
   display: inline-block;
-  margin-right: -6px;
-  box-sizing: border-box; }
+  margin-right: -6px; }
 
 /*# sourceMappingURL=2sec.css.map */
