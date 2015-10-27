@@ -53,6 +53,11 @@
         Afin de copier un texte, selectionner le et faite la commande <kbd>Ctrl + c</kbd></br>
         Exemple de code java: <code>int testCode = 1;</code>
       </div>
+      <div>Code:</div>
+      <pre>
+        &lt;kbd&gt;Ctrl + c&lt;/kbd&gt;<br />
+        &lt;code&gt;int testCode = 1;&lt;/code&gt;
+      </pre>
     </div>
 
     <hr>
@@ -62,11 +67,15 @@
     </p>
     <div class="exemple" title="Exemple de blockquote">
       <h5><small>Exemple:</small></h5>
-      <div>
         <blockquote>
           Lorem Elsass ipsum sed und so Kabinetpapier risus, sagittis amet, Gal. mollis rhoncus schnaps ch'ai knack jetz gehts los eleifend météor ante id, non Strasbourg aliquam DNA, gravida Christkindelsmärik dui Racing. blottkopf, elementum Miss Dahlias messti de Bischheim Huguette ullamcorper yeuh.
         </blockquote>
-      </div>
+        <div>Code:</div>
+        <pre>
+          &lt;blockquote&gt;<br />
+            Lorem Elsass ipsum sed und so Kabinetpapier risus, sagittis amet, Gal. mollis rhoncus schnaps ch'ai knack jetz gehts los eleifend m&eacute;t&eacute;or ante id, non Strasbourg aliquam DNA, gravida Christkindelsm&auml;rik dui Racing. blottkopf, elementum Miss Dahlias messti de Bischheim Huguette ullamcorper yeuh.<br />
+          &lt;/blockquote&gt;
+        </pre>
     </div>
     <hr>
     <h3><small>Puce</small></h3>
@@ -215,6 +224,7 @@
     <div class="exemple" title="Exemple tableau standard">
       <h5><small>Exemple 1:</small></h5>
       <div><mark>Tableau par défaut</mark></div>
+      <div class="row">
       <div class="span-4 offset-2">
         <table>
           <caption>Nombre d'utilisateur par système d'exploitation</caption>
@@ -240,6 +250,7 @@
           </tr>
         </table>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;table&gt;<br />
@@ -270,6 +281,7 @@
     <div class="exemple" title="Exemple tableau alternate">
       <h5><small>Exemple 2:</small></h5>
       <div><mark>Tableau "alternate"</mark></div>
+      <div class="row">
       <div class="span-4 offset-2">
         <table class="alternate">
           <caption>Nombre d'utilisateur par système d'exploitation</caption>
@@ -295,6 +307,7 @@
           </tr>
         </table>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;table class=&quot;alternate&quot;&gt;<br />
@@ -311,6 +324,7 @@
     <div class="exemple" title="Exemple tableau complete">
       <h5><small>Exemple 3:</small></h5>
       <div><mark>Tableau "complete"</mark></div>
+      <div class="row">
       <div class="span-4 offset-2">
         <table class="complete">
           <caption>Nombre d'utilisateur par système d'exploitation</caption>
@@ -336,6 +350,7 @@
           </tr>
         </table>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;table class=&quot;complete&quot;&gt;<br />
@@ -351,6 +366,7 @@
     <div class="exemple" title="Exemple tableau hover">
       <h5><small>Exemple 4:</small></h5>
       <div><mark>Tableau "hover"</mark></div>
+      <div class="row">
       <div class="span-4 offset-2">
         <table class="hover">
           <caption>Nombre d'utilisateur par système d'exploitation</caption>
@@ -376,6 +392,7 @@
           </tr>
         </table>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;table class=&quot;hover&quot;&gt;<br />
@@ -393,12 +410,14 @@
     <p>Il est possible de créer un bouton à l'aide des balise <code>&lt;button&gt;</code> ou <code>&lt;a&gt;</code> et des classes de bouton.</p>
     <div class="exemple" title="Exemple bouton standard">
       <h5><small>Bouton standard</small></h5>
+      <div class="row">
       <div class="span-6 offset-1">
         <a class="btn" href="#">Bouton</a>
         <a class="btn btn-blue" href="#">Bouton bleu</a>
         <a class="btn btn-red btn-small" href="#">Petit bouton rouge</a>
         <a class="btn btn-yellow btn-large" href="#">Gros bouton jaune</a>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;a class=&quot;btn&quot; href=&quot;#&quot;&gt;&quot;Bouton&quot;&lt;/a&gt;<br />
@@ -410,12 +429,14 @@
     <div class="exemple" title="Exemple bouton plat">
       <h5><small>Bouton plat</small></h5>
       <div>Pour obtenir des boutons plat, il suffit d'ajouter "btn-flat" dans la classe de la balise</div>
+      <div class="row">
       <div class="span-6 offset-1">
         <a class="btn btn-flat" href="#">Bouton</a>
         <a class="btn btn-flat btn-blue" href="#">Bouton bleu</a>
         <a class="btn btn-flat btn-red btn-small" href="#">Petit bouton rouge</a>
         <a class="btn btn-flat btn-yellow btn-large" href="#">Gros bouton jaune</a>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;a class=&quot;btn btn-flat&quot; href=&quot;#&quot;&gt;Bouton&lt;/a&gt;<br />
@@ -427,17 +448,19 @@
     <div class="exemple" title="Exemple bouton extra-large et fancy">
       <h5><small>Bouton extra-large et bouton "fancy"</small></h5>
       <div>Pour obtenir un bouton extra-large, il suffit d'ajouter "btn-xtra-large" dans la classe de la balise</div>
-      <div>
+      <div class="row">
       <a class="btn btn-xtra-large btn-blue" href="#">Bouton bleu</a>
       <button class="btn btn-xtra-large btn-blue" href="#">Bouton bleu</button>
     </div>
     <div>Pour obtenir un bouton "fancy", il suffit d'ajouter "btn-fancy" dans la classe de la balise</div>
+    <div class="row">
       <div class="span-6 offset-1">
         <button class="btn btn-fancy btn-yellow">Bouton fancy jaune</button>
         <button class="btn btn-fancy btn-red">Bouton fancy rouge</button>
         <button class="btn btn-fancy btn-blue">Bouton fancy bleu</button>
         <button class="btn btn-fancy">Bouton fancy</button>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;a class=&quot;btn btn-xtra-large btn-blue&quot; href=&quot;#&quot;&gt;Bouton bleu&lt;/a&gt;<br />
@@ -470,6 +493,7 @@
     <p>Le jumbotron est réalisable à l'aide de la classe "jumbotron".</p>
     <div class="exemple" title="Exemple jumbotron">
       <h5><small>Exemple:</small></h5>
+      <div class="row">
       <div class="jumbotron span-4 offset-2">
         <h1>Titre Jumbotron</h1>
         <p>
@@ -478,6 +502,7 @@
         </p>
         <button class="btn">Test</button>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;div class=&quot;jumbotron span-4 offset-2&quot;&gt;<br />
@@ -495,7 +520,7 @@
     <p>La gestion des onglets actifs ou inactifs se fait à l'aide des classes "active" et "disabled" sur les balises &lt;li&gt;.</p>
     <div class="exemple" title="Exemple navbar">
       <h5><small>Exemple:</small></h5>
-        <div>
+        <div class="row">
           <ul class="navbar">
             <li class="active"><a>Home</a></li>
             <li><a href="#">Liens</a></li>
@@ -522,6 +547,7 @@
     <p>Le breadcrumb permet d'afficher le chemin vers la page courante à l'intérieur du site et fonctionne à l'aide de la classe "breadcrumb" à utiliser dans une balise &lt;ul&gt;.</p>
     <div class="exemple" title="Exemple breadcrumb">
       <h5><small>Exemple:</small></h5>
+      <div class="row">
       <div class="span-4 offset-2">
         <ul class="breadcrumb">
           <li><a href="">Home</a></li>
@@ -530,6 +556,7 @@
           <li><a href="">Home</a></li>
         </ul>
       </div>
+    </div>
       <div>Code:</div>
       <pre>
         &lt;ul class=&quot;breadcrumb&quot;&gt;<br />

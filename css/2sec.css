@@ -176,6 +176,7 @@ pre {
     background: none; }
 
 .exemple {
+  margin: 12px 7px;
   border: 1px solid #7B2C96;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #5b206f;
@@ -480,22 +481,23 @@ ul {
         border: 1px solid #7B2C96;
         color: #7B2C96; }
 
-.grille-affiche [class^="span-"] {
-  border: 1px solid #7B2C96; }
-
 .container {
   max-width: 940px;
   display: block;
   margin: 15px auto;
   border: solid 1px black;
-  box-shadow: 3px 3px 3px black;
-  padding: 2px 10px; }
+  box-shadow: 3px 3px 3px black; }
 
 .row {
   display: block;
   margin-top: 12px;
   margin-bottom: 12px;
   clear: left; }
+  .row + div {
+    clear: left; }
+
+.grille-affiche [class^="span-"] {
+  border: 1px solid #7B2C96; }
 
 .span-1 {
   width: 12.375%;
