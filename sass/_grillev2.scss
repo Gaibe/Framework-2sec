@@ -5,13 +5,14 @@
     padding-right: $grille-goutiere;
     vertical-align : top;
     box-sizing: border-box;
-
+    float:left;
 }
 
 @mixin appCalculOffset($i) {
     margin-left: ($i / $nb-colonnes)*100% - ($i / $nb-colonnes)*1%;
     display: inline-block;
     box-sizing: border-box;
+    float: left;
 }
 
 
@@ -19,8 +20,6 @@
     @for $i from 1 through $nb-colonnes {
         .span-#{$i} {
             @include appCalculSpan($i);
-            float: left;
-
         }
     }
 }
