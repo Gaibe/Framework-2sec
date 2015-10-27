@@ -1,18 +1,21 @@
 @mixin appCalculSpan($i) {
-    width: $i / $nb-colonnes * 100 - 2%;
+    width: ($i / $nb-colonnes)*100% - ($i / $nb-colonnes)*1%;
     display: inline-block;
     padding-left: $grille-goutiere;
     padding-right: $grille-goutiere;
-    margin-right: $margin-negatif;
+//      margin-left: $grille-goutiere;
+//      margin-right: $grille-goutiere;
+//    margin-right: $margin-negatif;
     vertical-align : top;
-//    box-sizing: border-box;
+    box-sizing: border-box;
+
 }
 
 @mixin appCalculOffset($i) {
-    margin-left: $i / $nb-colonnes * 100%;
+    margin-left: ($i / $nb-colonnes)*100% - ($i / $nb-colonnes)*1%;
     display: inline-block;
-    margin-right: $margin-negatif;
-//      box-sizing: border-box;
+//    margin-right: $margin-negatif;
+      box-sizing: border-box;
 }
 
 
@@ -20,6 +23,8 @@
     @for $i from 1 through $nb-colonnes {
         .span-#{$i} {
             @include appCalculSpan($i);
+            float: left;
+
         }
     }
 }
@@ -74,20 +79,30 @@
     }
 }
 
+.grille-affiche{
+  & [class^="span-"]{
+    border: 1px solid $violet-fonce;
+  }
+}
+
 .container {
     max-width: $container-width;
     display: block;
     margin: 15px auto;
     border: solid 1px black;
     box-shadow: 3px 3px 3px black;
+    padding:2px 10px;
 }
 
 .row {
     display: block;
-    width: 100%;
+  //  width: 100%;
     margin-top: 12px;
     margin-bottom: 12px;
 //    box-sizing: border-box;
+    clear: left;
+
+
 }
 
 @include calculLargeurSpan();

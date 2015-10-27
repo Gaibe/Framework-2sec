@@ -154,13 +154,15 @@ pre {
     margin: 15px $margin-page;
     overflow: auto;
 
+    clear:left;
+
     & >code{
       background: none;
     }
 }
 
 .exemple{
-  margin: 12px $margin-page;
+//  margin: 12px $margin-page;
   border: 1px solid $violet-fonce;
   border-radius: $bordure-radius-box;
   box-shadow: 2px 2px 2px darken($violet-fonce,10);
@@ -168,6 +170,8 @@ pre {
   & div{
     padding: 10px 18px;
   }
+
+
 
 }
 
