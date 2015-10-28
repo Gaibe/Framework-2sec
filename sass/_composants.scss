@@ -26,61 +26,30 @@
 }
 
 .jumbotron{
-  margin: 7px $margin-page;
-  padding: 20px;
-  background-color: $gris-clairBC;
-  border-radius: 7px;
-  text-align: center;
-  min-width: $min-size;
-}
-/*
-.navbar{
-  display: block;
-  border-top: 1px solid $violet-color-header;
-  border-bottom: 1px solid $violet-color-header;
-  margin: 7px ,$margin-page;
-  min-height: 40px;
-
-  & >ul{
-    margin: 0px;
-    line-height: 1.3em;
-
-    & >li{
-      margin: 0px -0.12em;
-      margin-right: -3px;
-      padding: 0px 12px;
-      height:100%;
-      display:inline-block;
-
-      & >a{
-        display: block;
-        padding : 10px 5px;
-        color : black;
-        text-decoration: none;
-      }
-      &.active, &.active:hover{
-        background: lighten($violet-color-header, 20);
-        color:black;
-      }
-      &.disabled, &.disabled:hover{
-        background: white;
-        cursor: not-allowed;
-        & > a {
-          color:$gris-clairBC;
-        }
-      }
-      &:hover{
-        background: $violet-color-header;
-        & > a {
-          color: white;
-        }
-      }
-
-
-    }
+  @media screen and (min-width: $md-screen){
+    margin: 7px $margin-page;
+    padding: 20px;
+    background-color: $gris-clairBC;
+    border-radius: 7px;
+    text-align: center;
+    min-width: $min-size;
+  }
+  @media screen and (min-width: $sm-screen){
+    margin: 7px $margin-page;
+    padding: 20px;
+    background-color: $gris-clairBC;
+    border-radius: 7px;
+    text-align: center;
+    min-width: $min-size-sm;
+  }
+  @media screen and (max-width: $sm-screen){
+    padding: 15px;
+    background-color: $gris-clairBC;
+    border-radius: 7px;
+    text-align: center;
+    min-width: $min-size-sm;
   }
 }
-*/
 
 
 

@@ -1,5 +1,16 @@
+html{
+  @media screen and (max-width: $sm-screen){
+    font-size: 0.6rem;
+  }
+  @media screen and (min-width: $sm-screen){
+    font-size: 1rem;
+  }
+}
 body {
     font-family: $font-family;
+    @media screen and (max-width: $sm-screen){
+    //  font-size: 0.6rem;
+    }
 }
 
 hr{
@@ -167,11 +178,16 @@ pre {
   border-radius: $bordure-radius-box;
   box-shadow: 2px 2px 2px darken($violet-fonce,10);
   margin-bottom: 14px;
-  & div{
-    padding: 10px 18px;
+  @media screen and (min-width: $md-screen){
+    & div{
+      padding: 10px 18px;
+    }
   }
-
-
+  @media screen and (max-width: $md-screen){
+    & div{
+      padding: 5px 2px;
+    }
+  }
 
 }
 
@@ -229,8 +245,28 @@ ul {
 
 
 table {
+  @media screen and (max-width: $sm-screen){
+    margin: 0;
+    width:100%;
+    max-width: 100%;
+    & > tbody > tr {
+        text-align: center;
+        border: $bordure-grise;
+        & > th {
+            font-weight: bold;
+            background-color: $gris-clairCC;
+            padding: 10px 0px;
+            border: $bordure-grise;
+        }
+        & > td {
+          padding: 10px 0px;
+          border: $bordure-grise;
+        }
+  }
+}
+@media screen and (min-width: $sm-screen){
     margin: 15px $margin-page;
-
+    overflow: auto;
     & > tbody > tr {
         text-align: center;
         border: $bordure-grise;
@@ -247,6 +283,7 @@ table {
           border: $bordure-grise;
         }
     }
+  }
 
 }
 

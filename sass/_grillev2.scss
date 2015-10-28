@@ -17,6 +17,7 @@
     display: inline-block;
     box-sizing: border-box;
     float: left;
+
 }
 
 
@@ -51,7 +52,7 @@
 @mixin calculLargeurOffset-md() {
     @for $i from 1 through ($nb-colonnes - 1) {
         .offset-md-#{$i} {
-            @media screen and (min-width: $sm-screen + 1) and (max-width: $md-screen) {
+            @media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
                 @include appCalculOffset($i);
             }
         }
@@ -95,22 +96,35 @@
     margin-bottom: 12px;
 //    box-sizing: border-box;
     clear: left;
-
+    overflow: hidden;
     &+div{
       clear:left;
     }
 
     @for $i from 1 through $nb-colonnes{
-      & [class*="offset-#{$i}"]:first-child{
+      @media screen and (min-width: $md-screen){
+        & [class*="offset-#{$i}"]:first-child{
           clear:left;
           margin-left:get-margin-offset-first-child($i);
-      }
-
-      & [class="span-#{$i}"]:first-child{
-        clear:left;
-        margin-left: 0.5%;
+        }
+        & [class="span-#{$i}"]:first-child{
+          clear:left;
+          margin-left: 0.5%;
+        }
       }
     }
+    // @for $i from 1 through $nb-colonnes{
+    //   @media screen and (min-width: $md-screen){
+    //     & [class*="offset-#{$i}"]:first-child{
+    //       clear:left;
+    //       margin-left:get-margin-offset-first-child($i);
+    //     }
+    //     & [class="span-#{$i}"]:first-child{
+    //       clear:left;
+    //       margin-left: 0.5%;
+    //     }
+    //   }
+    // }
 
 }
 
