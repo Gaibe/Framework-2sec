@@ -77,7 +77,6 @@ button {
     }
 
     &.btn-fancy {
-
         border: solid black 2px;
         border-radius: 25px;
         box-shadow: $boxshadow1,
@@ -87,6 +86,5 @@ button {
               box-shadow: $boxshadow1,
                   0px -8px 20px rgba(255, 255, 255, 0.3) inset;
             }
-
     }
 }
