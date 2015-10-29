@@ -144,5 +144,90 @@ ul{
         }
       }
   }
+}
 
+.dropdown {
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    z-index: 2000;
+    & > .dropdown-menu {
+        position: fixed;
+        top: 45px;
+        right: 10px;
+        background-color: $violet-clair;
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+        & li {
+            list-style: none;
+            margin: 0;
+            & a {
+                padding: 5px 20px;
+                text-decoration: none;
+                color: black;
+                display:block;
+                &:hover,
+                &:focus {
+                    color: white;
+                }
+            }
+        }
+        &:hover,
+        &:focus {
+            display: block;
+        }
+    }
+    & > a.dropdown-title {
+        cursor: pointer;
+        background-color: #490063;
+        border: 2px solid $violet-clair;
+        color: white;
+        padding: 10px;
+        &:hover,
+        &:focus {
+            background-color: $violet-clair;
+            padding: 10px;
+            & + ul.dropdown-menu {
+                display: block;
+            }
+        }
+    }
+    @media screen and (min-width: 479px) {
+        display: none;
+    }
+}
+
+.dropdown-exemple{
+  display: inline-block;
+  position: inherit;
+  top: inherit;
+  right: inherit;
+
+  & > .dropdown-menu {
+    display: none;
+    position: relative;
+    top: 12px;
+    right: 32px;
+    &:hover,
+    &:focus {
+      display: block;
+    }
+  }
+  & > a.dropdown-title {
+    &:hover,
+    &:focus {
+      background-color: $violet-clair;
+      padding: 10px;
+      & + ul.dropdown-menu {
+        display: block;
+      }
+    }
+  }
+}
+
+.hide-sm {
+    @media screen and (max-width: 480px) {
+        display: none !important;
+    }
 }

@@ -478,6 +478,68 @@ ul {
         border: 1px solid #7B2C96;
         color: #7B2C96; }
 
+.dropdown {
+  position: fixed;
+  right: 10px;
+  top: 20px;
+  z-index: 2000; }
+  .dropdown > .dropdown-menu {
+    position: fixed;
+    top: 45px;
+    right: 10px;
+    background-color: #F5D9FF; }
+    @media screen and (max-width: 480px) {
+      .dropdown > .dropdown-menu {
+        display: none; } }
+    .dropdown > .dropdown-menu li {
+      list-style: none;
+      margin: 0; }
+      .dropdown > .dropdown-menu li a {
+        padding: 5px 20px;
+        text-decoration: none;
+        color: black;
+        display: block; }
+        .dropdown > .dropdown-menu li a:hover, .dropdown > .dropdown-menu li a:focus {
+          color: white; }
+    .dropdown > .dropdown-menu:hover, .dropdown > .dropdown-menu:focus {
+      display: block; }
+  .dropdown > a.dropdown-title {
+    cursor: pointer;
+    background-color: #490063;
+    border: 2px solid #F5D9FF;
+    color: white;
+    padding: 10px; }
+    .dropdown > a.dropdown-title:hover, .dropdown > a.dropdown-title:focus {
+      background-color: #F5D9FF;
+      padding: 10px; }
+      .dropdown > a.dropdown-title:hover + ul.dropdown-menu, .dropdown > a.dropdown-title:focus + ul.dropdown-menu {
+        display: block; }
+  @media screen and (min-width: 479px) {
+    .dropdown {
+      display: none; } }
+
+.dropdown-exemple {
+  display: inline-block;
+  position: inherit;
+  top: inherit;
+  right: inherit; }
+  .dropdown-exemple > .dropdown-menu {
+    display: none;
+    position: relative;
+    top: 12px;
+    right: 32px; }
+    .dropdown-exemple > .dropdown-menu:hover, .dropdown-exemple > .dropdown-menu:focus {
+      display: block; }
+  .dropdown-exemple > a.dropdown-title:hover, .dropdown-exemple > a.dropdown-title:focus {
+    background-color: #F5D9FF;
+    padding: 10px; }
+    .dropdown-exemple > a.dropdown-title:hover + ul.dropdown-menu, .dropdown-exemple > a.dropdown-title:focus + ul.dropdown-menu {
+      display: block; }
+
+@media screen and (max-width: 480px) {
+  .hide-sm {
+    display: none !important; } }
+
 .container {
   max-width: 940px;
   display: block;
