@@ -1,0 +1,18 @@
+- Titre
+- Keyboard Input
+- Code
+- Citation
+- Puce
+- Balise de texte
+- Alignement et transformation
+- Table
+- Bouton
+- Alertes
+- Jumbotron
+- Barre de navigation
+- Menu Dropdown
+- Fil d'ariane
+- Pagination
+- Grille et container
+
+ 
