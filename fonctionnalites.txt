@@ -1,18 +1,26 @@
-- Titre
-- Keyboard Input
-- Code
-- Citation
-- Puce
-- Balise de texte
-- Alignement et transformation
-- Table
-- Bouton
-- Alertes
-- Jumbotron
-- Barre de navigation
-- Menu Dropdown
-- Fil d'ariane
-- Pagination
-- Grille et container
+Afin d'utiliser le framework 2sec.css il suffit simplement de le mettre dans le dossier courant du projet ou un dossier "css".
 
- 
+
+Pour consulter la documentation complète, il suffit d'afficher le fichier "2sec.html".
+
+
+
+Fonctionnalités:
+
+- Titre et sous-titre: avec les balises <h1> a <h6> et <small>
+- Keyboard Input : avec les balises <kbd>
+- Code : avec les balises <code>
+- Citation : avec la balise <blockquote>
+- Puce : avec les balises <ul><li> et en plus les classes "square" ou "unstyled"
+- Balise de texte : avec les différentes balises <del>, <mark>, <ins>, <abbr>
+- Alignement et transformation : à l'aide des classes "align-gauche", "align-droite", "align-justifie" et "align-centre"
+- Table : avec les balises <table>, <tr>, <th>, <td> et les classes "alternate", "complete" et "hover"
+- Bouton : styliser les boutons à l'aide des classes "btn", "btn-blue", "btn-red", "btn-yellow", "btn-flat", "btn-extra-large" ou "btn-fancy"
+- Alertes : à l'aide des classes "alert", alert-success", "alert-danger", "alert-information" et "alert-avertissement"
+- Jumbotron : à l'aide de la classe "jumbotron"
+- Barre de navigation : avec les balises <ul> et <li> et la classe "navbar"
+- Menu Dropdown : avec les balises <div class="dropdown">, <a class="dropdown-title">, <ul class="dropdown-menu"> et <li>
+- Fil d'ariane : avec les balises <ul> et <li> et la classe "breadcrumb"
+- Pagination : avec la classe "pagination" sur les balises <ul> <li>
+- Grille et container : à l'aide des classes "container", "row" et "span-*" et "offset-*"
+- Exemple : à l'aide de la classe "exemple"
