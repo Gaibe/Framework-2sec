@@ -1,15 +1,8 @@
-html{
-  @media screen and (max-width: $sm-screen){
-    font-size: 0.6rem;
-  }
-  @media screen and (min-width: $sm-screen){
-    font-size: 1rem;
-  }
-}
+
 body {
     font-family: $font-family;
     @media screen and (max-width: $sm-screen){
-    //  font-size: 0.6rem;
+     font-size: 0.8rem;
     }
 }
 

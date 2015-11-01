@@ -47,15 +47,11 @@ table {
   border-spacing: 0; }
 
 /* Variable de la grille */
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 0.6rem; } }
-@media screen and (min-width: 480px) {
-  html {
-    font-size: 1rem; } }
-
 body {
   font-family: "Arial", "Verdana"; }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 0.8rem; } }
 
 hr {
   margin-bottom: 30px; }
